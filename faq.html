@@ -700,6 +700,14 @@
             line-height: 20px;
         }
 
+        section.question {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+            margin: 50px auto;
+            align-items: center;
+        }
+
         @keyframes slide {
             0% {
                 opacity: 0;
@@ -869,6 +877,34 @@
         </div>
     </section>
     <!--   End accordion section-->
+
+    <!-- question section-->
+    <section class="question">
+        <div class="qa_banner-item"><svg fill="#0071C2" height="36" width="36" viewBox="0 0 24 24" role="presentation"
+                aria-hidden="true" focusable="false">
+                <path
+                    d="M24 13.5a6 6 0 0 0-6-6h-3a6 6 0 0 0 0 12h.75l-.53-.22 4.5 4.5a.75.75 0 0 0 1.28-.53v-5.024l-.43.678A5.989 5.989 0 0 0 24 13.502zm-1.5-.002a4.489 4.489 0 0 1-2.57 4.05.75.75 0 0 0-.43.678v5.024l1.28-.53-4.5-4.5a.75.75 0 0 0-.53-.22H15a4.5 4.5 0 1 1 0-9h3a4.5 4.5 0 0 1 4.5 4.5zM6.22 12.22l-3 3 1.28.53v-5.024a.75.75 0 0 0-.43-.678A4.489 4.489 0 0 1 5.998 1.5H9a4.502 4.502 0 0 1 4.313 3.214.75.75 0 0 0 1.438-.428A6.002 6.002 0 0 0 9 0H6a5.988 5.988 0 0 0-2.57 11.404L3 10.726v5.024a.75.75 0 0 0 1.28.53l3-3a.75.75 0 1 0-1.06-1.06z">
+                </path>
+            </svg></div>
+        <div class="qa_banner-item grow">
+            <h3 class="bui-f-font-heading bui-spacer--small">Property questions and answers</h3>
+            <div class="bui-f-font-body">Looking for more info? Send a question to the property to find out
+                more.
+            </div>
+        </div>
+        <div class="qa_banner-item qa_banner-button">
+            <div class=" guest-question-form-wrapper js-guest-question-form-wrapper  ">
+                <button data-no-toggle="1"
+                    class=" bui-button bui-button--secondary bui-button--wide ask-question-btn js-ask-question-btn "
+                    title="Ask a question" data-modal-id="propertyGuestQuestionsForm">
+                    <span class="bui-button__text">
+                        Ask a question
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- question section-->
     <!--  Start surroundings section-->
     <section class="surroundings">
         <div>
