@@ -332,6 +332,51 @@
             height: auto;
         }
 
+        .parallax {
+            background-image: url("assets/img/contact_page.png");
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            margin: 50px auto;
+        }
+
+        .book-overlay {
+            width: 100%;
+            max-width: 730px;
+            background: rgba(0, 44, 109, 0.50);
+            color: #fff;
+            margin: 65px auto;
+            padding: 50px 100px;
+            text-align: center;
+        }
+
+        .book-overlay h3 {
+            color: #fff;
+            margin-bottom: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .book-overlay .btn {
+            margin-top: 35px;
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            position: relative;
+            -webkit-transition-property: color;
+            transition-property: color;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+        }
+
         @keyframes slide {
             0% {
                 opacity: 0;
@@ -502,6 +547,16 @@
                 });
             });
         </script>
+    </div>
+
+
+    <div class="parallax">
+        <div class="book-overlay">
+            <h3>The best of Amsterdam</h3>
+            <p>If would you like to stay at Amsroom?</p>
+            <p>Lock in a great price for your upcoming stay.</p>
+            <a href="contact.html" class="btn hvr-shutter-out-horizontal">BOOK NOW</a>
+        </div>
     </div>
 
     <footer class="container-fluid text-center">
