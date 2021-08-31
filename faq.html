@@ -741,6 +741,10 @@
             border: 1px solid #0071c2;
         }
 
+        section.booking-info span.timebar-mobile {
+                display: none;
+            }
+
         @keyframes slide {
             0% {
                 opacity: 0;
@@ -849,6 +853,14 @@
 
             section.booking-info {
                 width: 90%;
+            }
+
+            section.booking-info span.timebar {
+                display: none;
+            }
+
+            section.booking-info span.timebar-mobile {
+                display: block;
             }
         }
     </style>
@@ -1095,6 +1107,7 @@
                                 data-from-label="15:00" data-until="22:00" data-until-label="22:00" data-caption="
         15:00 - 22:00 
         ">
+        <span class="timebar-mobile">15:00 - 22:00</span>
                                 <span class="timebar">
                                     <span class="timebar__core">
                                         <span class="timebar__base">
@@ -1137,6 +1150,7 @@
                                 data-until-label="11:00" data-from="00:00" data-from-label="00:00" data-caption="
         00:00 - 11:00 
         ">
+        <span class="timebar-mobile">00:00 - 11:00</span>
                                 <span class="timebar">
                                     <span class="timebar__core">
                                         <span class="timebar__base">
