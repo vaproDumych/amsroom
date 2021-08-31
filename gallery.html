@@ -377,6 +377,48 @@
             transition-duration: 0.3s;
         }
 
+        section.question {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+            margin: 50px auto;
+            align-items: center;
+            border: 1px solid #e7e7e7;
+        }
+
+        div.left-side {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        div.left-side .qa_banner-item {
+            margin: 0 10px;
+        }
+
+        div.right-side {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.right-side a {
+            background-color: #fff;
+            color: #0071c2;
+            padding: 8px 16px;
+            cursor: pointer;
+            min-height: 36px;
+            min-width: 36px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            border-radius: 2px;
+            border: 1px solid #0071c2;
+            text-decoration: none;
+        }
+
         @keyframes slide {
             0% {
                 opacity: 0;
@@ -441,7 +483,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/amsroom_logo.png" alt="Amsroom" /></a>
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/amsroom_logo.png"
+                            alt="Amsroom" /></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -457,6 +500,35 @@
         <h1>Amsroom</h1>
 
     </div>
+    <!-- question section-->
+    <section class="question">
+        <div class="left-side">
+            <div class="qa_banner-item">
+                <svg fill="#0071C2" height="36" width="36" viewBox="0 0 24 24" role="presentation" aria-hidden="true"
+                    focusable="false">
+                    <path
+                        d="M24 13.5a6 6 0 0 0-6-6h-3a6 6 0 0 0 0 12h.75l-.53-.22 4.5 4.5a.75.75 0 0 0 1.28-.53v-5.024l-.43.678A5.989 5.989 0 0 0 24 13.502zm-1.5-.002a4.489 4.489 0 0 1-2.57 4.05.75.75 0 0 0-.43.678v5.024l1.28-.53-4.5-4.5a.75.75 0 0 0-.53-.22H15a4.5 4.5 0 1 1 0-9h3a4.5 4.5 0 0 1 4.5 4.5zM6.22 12.22l-3 3 1.28.53v-5.024a.75.75 0 0 0-.43-.678A4.489 4.489 0 0 1 5.998 1.5H9a4.502 4.502 0 0 1 4.313 3.214.75.75 0 0 0 1.438-.428A6.002 6.002 0 0 0 9 0H6a5.988 5.988 0 0 0-2.57 11.404L3 10.726v5.024a.75.75 0 0 0 1.28.53l3-3a.75.75 0 1 0-1.06-1.06z">
+                    </path>
+                </svg>
+            </div>
+            <div class="qa_banner-item grow">
+                <h3>Property questions and answers</h3>
+                <div>Looking for more info? Send a question to the property to find out
+                    more.
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div>
+                <a href="contact.html" title="Ask a question">
+                    <span>
+                        Ask a question
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- question section-->
     <div>
 
         <!-- ### position of the gallery ### -->
